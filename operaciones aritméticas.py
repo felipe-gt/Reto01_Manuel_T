@@ -13,10 +13,10 @@ if seguir == "si":
         print("(/) División")
         
         c = str(input("¿Qué operación desea usar? "))
-        
         sumar = a + b
         res = a - b
         mul = a * b
+        div = a / b
         if c == "+":
             print(f'La suma de los números ingresados es: {sumar}')
         
